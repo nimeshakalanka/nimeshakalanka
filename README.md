@@ -32,8 +32,8 @@
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=nimeshakalanka&repo=Tiktok-Download-API&theme=dark)
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=nimeshakalanka&repo=mvps&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=nimeshakalanka&repo=nimeshakalanka.github.io&theme=dark)
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=nimeshakalanka&repo=HM-Filter-Bot&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=nimeshakalanka&repo=Priya-Dream-Kitchen.github.io&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=nimeshakalanka&repo=portfolio&theme=dark)
  
 <h2 align="left">Connect Me<img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 <p align="left">
