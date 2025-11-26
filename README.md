@@ -1,13 +1,25 @@
 <img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966" width="800" height="3">
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Hello%2C+I+am+Nimesh+Akalanka+...;I%E2%80%99m+Currently+Working+As+%3A+Freelancer+...;+How+To+Reach+Me+%3A+Contact+Me+On+Telegram+...;Ask+Me+About+Anything%2C+I+Am+Happy+To+Help+....)](https://github.com/Mafia58)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Hello%2C+I+am+Nimesh+Akalanka+...;I%E2%80%99m+Currently+Working+As+%3A+Freelancer+...;+How+To+Reach+Me+%3A+Contact+Me+On+Telegram+...;Ask+Me+About+Anything%2C+I+Am+Happy+To+Help+....)](https://github.com/nimeshakalanka25)
 
 ### ⚙️ &nbsp;GitHub Analytics
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=nimeshakalanka&hide=contribs,issues,stars&theme=tokyonight" /></div>
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nimeshakalanka&hide_title=true&hide_border=true&theme=tokyonight" /></div>
+<!-- <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=nimeshakalanka&hide=contribs,issues,stars&theme=tokyonight" /></div> -->
 
 
+<p align="center">
+
+<a href="https://github.com/nimeshakalanka?tab=repositories#gh-dark-mode-only"><img src="https://github-readme-stats-one-bice.vercel.app/api?username=nimeshakalanka&theme=gotham&show_icons=true&count_private=true&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"  width="48%" alt="Nimesh's github-readme-stats"/></a>
+<a href="https://github.com/nimeshakalanka?tab=repositories#gh-light-mode-only"><img src="https://github-readme-stats-one-bice.vercel.app/api?username=nimeshakalanka&theme=default&show_icons=true&count_private=true&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"  width="48%" alt="Nimesh's github-readme-stats"/></a>
+<a href="https://git.io/streak-stats"><img src="https://github-streak-stats-ruby.vercel.app?user=nimeshakalanka&theme=gotham&hide_border=true" alt="GitHub Streak" /></a>
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nimeshakalanka&hide_title=true&hide_border=true&theme=tokyonight" />
+<a href="https://github.com/nimeshakalanka?tab=achievements#gh-dark-mode-only"><img src="https://github-profile-trophy.vercel.app/?username=nimeshakalanka&theme=onestar&no-frame=true&column=3&row=2"  width="38%" alt="Nimesh's trophy stats"/></a>
+<a href="https://github.com/nimeshakalanka?tab=achievements#gh-light-mode-only"><img src="https://github-profile-trophy.vercel.app/?username=nimeshakalanka&theme=flat&no-frame=true&column=3&row=2"  width="38%" alt="Nimesh's trophy stats"/></a>
+
+</p>
 
 ###
 
@@ -26,6 +38,7 @@
 ![VS2019](https://img.shields.io/badge/-Visual%20Studio%202019-05122A?style=flat&logo=visualstudio)
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code)&nbsp;
 ![Photoshop](https://img.shields.io/badge/-Photoshop-05122A?style=flat&logo=adobe-photoshop)&nbsp;
+
 
 ###
 <h2> My Best Repo Status <img src="https://i.pinimg.com/originals/01/63/6c/01636c5434cd0462086620c60fdfec16.gif" width=70px></h2>
