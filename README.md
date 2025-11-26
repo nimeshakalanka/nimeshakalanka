@@ -8,13 +8,11 @@
 
 
 <div align="center">
-  <a href="https://github.com/nimeshakalanka?tab=repositories#gh-dark-mode-only">
-    <img src="https://github-readme-stats-one-bice.vercel.app/api?username=nimeshakalanka&theme=gotham&show_icons=true&count_private=true&hide_border=true" width="48%" alt="Nimesh's github-readme-stats"/>
-  </a>
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-streak-stats-ruby.vercel.app?user=nimeshakalanka&theme=gotham&hide_border=true" width="48%" alt="GitHub Streak" />
-  </a>
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=nimeshakalanka&theme=gotham&show_icons=true&count_private=true&hide_border=true" width="48%" alt="Nimesh's github-readme-stats"/>
+  <img src="https://github-streak-stats-ruby.vercel.app?user=nimeshakalanka&theme=gotham&hide_border=true" width="48%" alt="GitHub Streak" />
 </div>
+<br/>
+
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nimeshakalanka&hide_title=true&hide_border=true&theme=tokyonight" />
 <a href="https://github.com/nimeshakalanka?tab=achievements#gh-dark-mode-only"><img src="https://github-profile-trophy.vercel.app/?username=nimeshakalanka&theme=onestar&no-frame=true&column=3&row=2"  width="38%" alt="Nimesh's trophy stats"/></a>
