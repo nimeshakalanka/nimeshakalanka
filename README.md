@@ -13,10 +13,14 @@
 </div>
 <br/>
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nimeshakalanka&hide_title=true&hide_border=true&theme=tokyonight" />
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nimeshakalanka&hide_title=true&hide_border=true&theme=tokyonight" />
 <a href="https://github.com/nimeshakalanka?tab=achievements#gh-dark-mode-only"><img src="https://github-profile-trophy.vercel.app/?username=nimeshakalanka&theme=onestar&no-frame=true&column=3&row=2"  width="38%" alt="Nimesh's trophy stats"/></a>
 <a href="https://github.com/nimeshakalanka?tab=achievements#gh-light-mode-only"><img src="https://github-profile-trophy.vercel.app/?username=nimeshakalanka&theme=flat&no-frame=true&column=3&row=2"  width="38%" alt="Nimesh's trophy stats"/></a>
+</div>
+
+<p align="center">
+
 
 </p>
 
