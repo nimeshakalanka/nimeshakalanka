@@ -53,7 +53,7 @@
  
 <h2 align="left">Connect Me<img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 <p align="left">
-<a href="https://nimeshakalanka.github.io/portfolio"><img src="https://img.shields.io/badge/-nimeshakalanka.github.io-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
+<a href="https://nimeshakalanka.dev"><img src="https://img.shields.io/badge/-nimeshakalanka.dev-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
 <a href="akalankanime24@gmail.com"><img src="https://img.shields.io/badge/-akalankanime24@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 <a href="https://www.youtube.com/channel/UC3IrD9mIK5ZzUnYGY14ZIWQ"><img src="https://img.shields.io/youtube/channel/subscribers/UC3IrD9mIK5ZzUnYGY14ZIWQ"/></a>
 
