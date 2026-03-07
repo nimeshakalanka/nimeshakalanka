@@ -1,19 +1,21 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Nimesh%20Akalanka&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Freelancer%20%7C%20Tech%20Enthusiast&descAlignY=58&descSize=17" />
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--              NEON DARK HEADER BANNER                       -->
+<!-- ══════════════════════════════════════════════════════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0221,30:0A1628,60:16003A,100:0D0221&height=230&section=header&text=Nimesh%20Akalanka&fontSize=55&fontColor=00F5FF&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Freelancer%20%7C%20Tech%20Enthusiast&descAlignY=60&descSize=17&descFontColor=BD00FF&stroke=00F5FF&strokeWidth=1" />
 
-<!-- Typing Animation -->
+<!-- Neon Typing Animation -->
 <a href="https://nimeshakalanka.dev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&random=true&width=700&height=45&lines=Hey+there!+I'm+Nimesh+%F0%9F%91%8B;Full-Stack+Developer+%26+Freelancer+%F0%9F%9A%80;I+build+things+for+the+web+%F0%9F%92%BB;Open+to+Collaborations+%26+Opportunities+%F0%9F%A4%9D;Ask+me+anything%2C+I'm+happy+to+help!+%F0%9F%98%84" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00F5FF&center=true&vCenter=true&random=true&width=720&height=45&lines=Hey+there!+I'm+Nimesh+%F0%9F%91%8B;Full-Stack+Developer+%26+Freelancer+%F0%9F%9A%80;I+build+things+for+the+web+%F0%9F%92%BB;Open+to+Collaborations+%26+Opportunities+%F0%9F%A4%9D;Ask+me+anything%2C+I'm+happy+to+help!+%F0%9F%98%84" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<!-- Animated Social Badges -->
-<a href="https://github.com/nimeshakalanka"><img src="https://img.shields.io/github/followers/nimeshakalanka?label=Followers&style=for-the-badge&color=236ad3&labelColor=0D1117&logo=github" /></a>&nbsp;
-<a href="https://github.com/nimeshakalanka"><img src="https://komarev.com/ghpvc/?username=nimeshakalanka&label=Profile+Views&color=0e75b6&style=for-the-badge&labelColor=0D1117" /></a>&nbsp;
-<a href="https://nimeshakalanka.dev"><img src="https://img.shields.io/badge/Portfolio-Live-00C853?style=for-the-badge&logo=firefox&logoColor=white&labelColor=0D1117" /></a>
+<!-- Neon Glow Badges -->
+<a href="https://github.com/nimeshakalanka"><img src="https://img.shields.io/github/followers/nimeshakalanka?label=Followers&style=for-the-badge&color=00F5FF&labelColor=0D0221&logo=github&logoColor=00F5FF" /></a>&nbsp;
+<a href="https://github.com/nimeshakalanka"><img src="https://komarev.com/ghpvc/?username=nimeshakalanka&label=Profile+Views&color=BD00FF&style=for-the-badge&labelColor=0D0221" /></a>&nbsp;
+<a href="https://nimeshakalanka.dev"><img src="https://img.shields.io/badge/🌐_Portfolio-Live-00F5FF?style=for-the-badge&logoColor=00F5FF&labelColor=0D0221" /></a>
 
 </div>
 
@@ -62,6 +64,7 @@
 
 ## 📊 GitHub Analytics
 
+
 <div align="center">
 <img src="https://streak-stats.demolab.com/?user=nimeshakalanka&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6E6E&currStreakLabel=58A6FF&sideLabels=58A6FF" />
 </div>
@@ -93,6 +96,7 @@
 
 | � Project | 📝 Description | 🛠️ Stack |
 |:---|:---|:---|
+| [**🤗 AI Watermark Remover**](https://huggingface.co/spaces/nimeshakalanka24/watermark-remover) | AI-powered tool to remove watermarks from images | Python · Hugging Face · AI/ML |
 | [**🤖 All Save Bot**](https://github.com/nimeshakalanka/all_save) | Telegram bot to download social media videos without watermark | Python · MongoDB · TikTok API |
 | [**🌐 NextJS Portfolio**](https://github.com/nimeshakalanka/nimesh-portfolio-new) | Modern portfolio built with Next.js & Tailwind CSS | Next.js · Tailwind · Framer Motion |
 | [**🏨 Hotel Billing System**](https://github.com/nimeshakalanka/my-bill) | Desktop app for managing hotel billing & reservations | JavaScript · Netlify |
@@ -101,6 +105,7 @@
 | [**✈️ Lanka Travel Diaries**](https://github.com/nimeshakalanka/lanka-travel-diaries) | Travel guide website for tourists (team project) | React · SASS · Tailwind |
 | [**⬇️ TikTok Downloader API**](https://github.com/nimeshakalanka/tiktok-api) | API for downloading TikTok videos without watermarks | JavaScript · Python · Cloudflare |
 | [**💼 React Portfolio**](https://github.com/nimeshakalanka/portfolio) | Portfolio website built with React & Vite | React · Vite · Tailwind CSS |
+
 
 </div>
 
@@ -136,9 +141,7 @@
 
 <div align="center">
 
-<!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
-
-**⭐ Enjoyed my work? Star a repo and let's build something amazing together!**
+<!-- Neon Footer Wave -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:16003A,50:0A1628,100:0D0221&height=140&section=footer&text=Thanks%20for%20visiting!&fontSize=22&fontColor=00F5FF&animation=fadeIn&fontAlignY=65&desc=Let's%20build%20something%20amazing%20together%20✨&descAlignY=85&descSize=13&descFontColor=BD00FF" />
 
 </div>
