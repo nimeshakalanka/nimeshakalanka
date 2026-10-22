@@ -45,7 +45,7 @@
   <text x="500" y="133" class="big" text-anchor="middle">1</text>
   <text x="500" y="198" class="l" text-anchor="middle" letter-spacing="3">DAY STREAK</text>
   <text x="366" y="236" class="l">Longest <tspan class="v">6</tspan></text>
-  <text x="634" y="236" class="l" text-anchor="end">Last year <tspan class="v">644</tspan></text>
+  <text x="634" y="236" class="l" text-anchor="end">Last year <tspan class="v">645</tspan></text>
 
   
   <rect x="684" y="0" width="316" height="260" rx="18" fill="#0A0E1A" stroke="#1C2438"/>
