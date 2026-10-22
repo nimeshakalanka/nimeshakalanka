@@ -1,0 +1,39 @@
+<svg width="1000" height="60" viewBox="0 0 1000 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="0.08" stop-color="#fff"/>
+      <stop offset="0.92" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="m"><rect width="1000" height="60" fill="url(#fade)"/></mask>
+
+    <g id="chips" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600"
+       text-anchor="middle" fill="#C9D1D9">
+      <g transform="translate(0,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#00F5FF"/><text x="65" y="26">JavaScript</text></g>
+      <g transform="translate(150,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#BD00FF"/><text x="65" y="26">Python</text></g>
+      <g transform="translate(300,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#00F5FF"/><text x="65" y="26">Java</text></g>
+      <g transform="translate(450,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#BD00FF"/><text x="65" y="26">C#</text></g>
+      <g transform="translate(600,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#00F5FF"/><text x="65" y="26">C++</text></g>
+      <g transform="translate(750,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#BD00FF"/><text x="65" y="26">HTML</text></g>
+      <g transform="translate(900,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#00F5FF"/><text x="65" y="26">CSS</text></g>
+      <g transform="translate(1050,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#BD00FF"/><text x="65" y="26">Node.js</text></g>
+      <g transform="translate(1200,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#00F5FF"/><text x="65" y="26">.NET</text></g>
+      <g transform="translate(1350,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#BD00FF"/><text x="65" y="26">Next.js</text></g>
+      <g transform="translate(1500,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#00F5FF"/><text x="65" y="26">React</text></g>
+      <g transform="translate(1650,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#BD00FF"/><text x="65" y="26">Tailwind</text></g>
+      <g transform="translate(1800,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#00F5FF"/><text x="65" y="26">Flask</text></g>
+      <g transform="translate(1950,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#BD00FF"/><text x="65" y="26">MongoDB</text></g>
+      <g transform="translate(2100,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#00F5FF"/><text x="65" y="26">Git</text></g>
+      <g transform="translate(2250,10)"><rect width="130" height="40" rx="20" fill="#0D1117" stroke="#BD00FF"/><text x="65" y="26">Selenium</text></g>
+    </g>
+  </defs>
+
+  <g mask="url(#m)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-2400 0" dur="40s" repeatCount="indefinite"/>
+      <use href="#chips" xlink:href="#chips"/>
+      <use href="#chips" xlink:href="#chips" x="2400"/>
+    </g>
+  </g>
+</svg>
