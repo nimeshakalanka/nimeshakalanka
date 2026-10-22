@@ -1,19 +1,27 @@
-<svg width="1000" height="20" viewBox="0 0 1000 20" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="24" viewBox="0 0 1000 24" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="l" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#BD00FF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#00F5FF"/>
-      <stop offset="1" stop-color="#BD00FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#2A3558" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#5B7CFF" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#2A3558" stop-opacity="0"/>
     </linearGradient>
     <filter id="g" x="-300%" y="-300%" width="700%" height="700%">
-      <feGaussianBlur stdDeviation="4"/>
+      <feGaussianBlur stdDeviation="3"/>
     </filter>
   </defs>
-  <rect x="0" y="9" width="1000" height="2" fill="url(#l)"/>
-  <circle cy="10" r="6" fill="#BD00FF" filter="url(#g)">
-    <animate attributeName="cx" values="0;1000" dur="4s" repeatCount="indefinite"/>
+
+  <rect x="0" y="11" width="1000" height="2" fill="url(#l)"/>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0.2;0.9;0;0" keyTimes="0;0.55;0.56;0.6;0.63;0.7;1" dur="6s" repeatCount="indefinite"/>
+    <path d="M430 12 L462 5 L474 17 L506 3 L520 19 L556 9 L572 13" fill="none" stroke="#FFC53D" stroke-width="6" stroke-linejoin="round" filter="url(#g)" opacity="0.8"/>
+    <path d="M430 12 L462 5 L474 17 L506 3 L520 19 L556 9 L572 13" fill="none" stroke="#FFF3C4" stroke-width="1.6" stroke-linejoin="round"/>
+  </g>
+
+  <circle cy="12" r="5" fill="#FFC53D" filter="url(#g)">
+    <animate attributeName="cx" values="0;1000" dur="5s" repeatCount="indefinite"/>
   </circle>
-  <circle cy="10" r="2" fill="#FFFFFF">
-    <animate attributeName="cx" values="0;1000" dur="4s" repeatCount="indefinite"/>
+  <circle cy="12" r="1.8" fill="#FFFFFF">
+    <animate attributeName="cx" values="0;1000" dur="5s" repeatCount="indefinite"/>
   </circle>
 </svg>
