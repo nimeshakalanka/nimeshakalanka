@@ -1,0 +1,20 @@
+<svg width="1000" height="160" viewBox="0 0 1000 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="n" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F5FF"/>
+      <stop offset="1" stop-color="#BD00FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="160" fill="#0D0221"/>
+  <text x="500" y="70" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="26" font-weight="700" fill="url(#n)">Let's build something amazing</text>
+
+  <path fill="#BD00FF" opacity="0.35"
+        d="M0 110 Q125 80 250 110 T500 110 T750 110 T1000 110 T1250 110 T1500 110 V160 H0 Z">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#00F5FF" opacity="0.25"
+        d="M-500 122 Q-375 97 -250 122 T0 122 T250 122 T500 122 T750 122 T1000 122 V160 H-500 Z">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="500 0" dur="11s" repeatCount="indefinite"/>
+  </path>
+</svg>
