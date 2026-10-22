@@ -1,56 +1,90 @@
-<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1000" height="180" viewBox="0 0 1000 180" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#02030A"/>
-      <stop offset="0.5" stop-color="#080D1C"/>
-      <stop offset="1" stop-color="#141B33"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141B33"/>
+      <stop offset="0.6" stop-color="#080D1C"/>
+      <stop offset="1" stop-color="#02030A"/>
     </linearGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="0.55" stop-color="#BFD8FF"/>
+      <stop offset="0.5" stop-color="#BFD8FF"/>
       <stop offset="1" stop-color="#FFC53D"/>
     </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2A3558"/>
-      <stop offset="1" stop-color="#FFC53D"/>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFC53D" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFC53D"/>
+      <stop offset="1" stop-color="#FFC53D" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="cfade" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fff"/>
-      <stop offset="0.55" stop-color="#fff"/>
+      <stop offset="0.5" stop-color="#fff"/>
       <stop offset="1" stop-color="#000"/>
     </linearGradient>
-    <mask id="cmask"><rect width="1000" height="230" fill="url(#cfade)"/></mask>
-    <linearGradient id="flashGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#BFD8FF" stop-opacity="1"/>
-      <stop offset="1" stop-color="#BFD8FF" stop-opacity="0.25"/>
-    </linearGradient>
-    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2A3558" stop-opacity="0"/>
-      <stop offset="1" stop-color="#2A3558" stop-opacity="0.6"/>
-    </linearGradient>
+    <mask id="cmask"><rect width="1000" height="120" fill="url(#cfade)"/></mask>
     <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#A9C4FF" stop-opacity="0.6"/>
+      <stop offset="0" stop-color="#A9C4FF" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#A9C4FF" stop-opacity="0"/>
     </radialGradient>
-
-    <!-- storm cloud texture (dark) and the same texture lit by lightning -->
     <filter id="cloudDark" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
-      <feTurbulence type="fractalNoise" baseFrequency="0.005 0.016" numOctaves="5" seed="11"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.005 0.018" numOctaves="5" seed="23"/>
       <feColorMatrix type="matrix" values="0 0 0 0 0.09  0 0 0 0 0.12  0 0 0 0 0.22  0 0 0 2 -0.7"/>
     </filter>
     <filter id="cloudLit" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
-      <feTurbulence type="fractalNoise" baseFrequency="0.005 0.016" numOctaves="5" seed="11"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.005 0.018" numOctaves="5" seed="23"/>
       <feColorMatrix type="matrix" values="0 0 0 0 0.62  0 0 0 0 0.74  0 0 0 0 1  0 0 0 2 -0.7"/>
     </filter>
-    <filter id="blurGlow" filterUnits="userSpaceOnUse" x="0" y="-30" width="1000" height="360">
-      <feGaussianBlur stdDeviation="5"/>
+    <filter id="blurGlow" filterUnits="userSpaceOnUse" x="0" y="-20" width="400" height="220">
+      <feGaussianBlur stdDeviation="4"/>
     </filter>
-    <clipPath id="card"><rect width="1000" height="300" rx="24"/></clipPath>
-    <clipPath id="type">
-      <rect x="70" y="208" width="0" height="34">
-        <animate attributeName="width" from="0" to="500" dur="3s" begin="0.6s" fill="freeze"/>
-      </rect>
-    </clipPath>
 
-    <!-- bolt A (main strike) -->
-    <path id="mainA" pathLength="1" d="M810 -10 L803 14
+    <path id="bolt" pathLength="1" d="M165 -5 L152 20 L162 38 L146 62 L152 78 L134 104 L141 120 L124 146 L126 156 L120 166"/>
+    <path id="br" pathLength="1" d="M146 62 L132 74 L136 82 L122 96"/>
+
+    <g id="col" stroke="#9DB4FF" stroke-width="1.1" stroke-linecap="round">
+      <line x1="0" y1="-60" x2="-6" y2="-38"/><line x1="-16" y1="0" x2="-22" y2="22"/>
+      <line x1="-32" y1="60" x2="-38" y2="82"/><line x1="-48" y1="120" x2="-54" y2="142"/>
+      <line x1="-64" y1="180" x2="-70" y2="202"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="180" fill="url(#bg)"/>
+
+  <g mask="url(#cmask)">
+    <rect width="1000" height="120" filter="url(#cloudDark)"/>
+    <rect width="1000" height="120" filter="url(#cloudLit)" opacity="0">
+      <animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.4;0.403;0.42;0.43;0.46;0.55;1" values="0;0;1;0.3;0.9;0.2;0;0"/>
+    </rect>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.4;0.403;0.42;0.43;0.46;0.5;1" values="0;0;1;0.2;0.8;0.15;0;0"/>
+    <circle cx="145" cy="70" r="120" fill="url(#halo)"/>
+    <g fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" dur="9s" repeatCount="indefinite" keyTimes="0;0.4;0.412;1" values="1;1;0;0"/>
+      <use xlink:href="#bolt" href="#bolt" stroke="#8FB0FF" stroke-width="10" filter="url(#blurGlow)" opacity="0.9"/>
+      <use xlink:href="#bolt" href="#bolt" stroke="#D6E4FF" stroke-width="3.2"/>
+      <use xlink:href="#bolt" href="#bolt" stroke="#FFFFFF" stroke-width="1.6"/>
+      <use xlink:href="#br" href="#br" stroke="#8FB0FF" stroke-width="5" filter="url(#blurGlow)" opacity="0.8"/>
+      <use xlink:href="#br" href="#br" stroke="#F2F6FF" stroke-width="1.3"/>
+    </g>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-16 60" dur="0.9s" repeatCount="indefinite"/>
+    <g opacity="0.3">
+      <use xlink:href="#col" href="#col" x="60" y="10"/><use xlink:href="#col" href="#col" x="150" y="45"/>
+      <use xlink:href="#col" href="#col" x="240" y="25"/><use xlink:href="#col" href="#col" x="330" y="52"/>
+      <use xlink:href="#col" href="#col" x="420" y="6"/><use xlink:href="#col" href="#col" x="510" y="38"/>
+      <use xlink:href="#col" href="#col" x="600" y="18"/><use xlink:href="#col" href="#col" x="690" y="48"/>
+      <use xlink:href="#col" href="#col" x="780" y="30"/><use xlink:href="#col" href="#col" x="870" y="12"/>
+      <use xlink:href="#col" href="#col" x="960" y="42"/><use xlink:href="#col" href="#col" x="1050" y="22"/>
+    </g>
+  </g>
+
+  <path d="M0 180 V166 L80 158 L170 168 L260 156 L350 166 L450 160 L550 168 L650 158 L760 168 L850 157 L940 165 L1000 160 V180 Z" fill="#02030A"/>
+
+  <text x="500" y="84" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="url(#t)">Let's build something amazing</text>
+  <text x="500" y="114" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="5" fill="#8FA3D8">NIMESHAKALANKA.DEV</text>
+
+  <rect x="0" y="177" width="1000" height="2" fill="url(#line)"/>
+</svg>
