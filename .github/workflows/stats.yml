@@ -1,5 +1,4 @@
 name: Update stats card
-
 on:
   schedule:
     - cron: "0 */6 * * *"
