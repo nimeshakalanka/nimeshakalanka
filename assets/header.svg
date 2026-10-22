@@ -1,0 +1,64 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D0221"/>
+      <stop offset="0.5" stop-color="#16003A"/>
+      <stop offset="1" stop-color="#0A1628"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F5FF"/>
+      <stop offset="1" stop-color="#BD00FF"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00F5FF" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <clipPath id="card"><rect width="1000" height="300" rx="24"/></clipPath>
+    <clipPath id="type">
+      <rect x="70" y="208" width="0" height="34">
+        <animate attributeName="width" from="0" to="490" dur="3s" begin="0.6s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#grid)"/>
+
+    <circle cx="820" cy="80" r="110" fill="#BD00FF" opacity="0.35" filter="url(#blur)">
+      <animate attributeName="cx" values="820;680;820" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="80;210;80" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="250" r="100" fill="#00F5FF" opacity="0.25" filter="url(#blur)">
+      <animate attributeName="cx" values="150;330;150" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="250;120;250" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="740" y="215" font-family="Consolas, Menlo, monospace" font-size="170" font-weight="700"
+          fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.25">&lt;/&gt;</text>
+
+    <text x="70" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="800"
+          fill="url(#neon)" filter="url(#glow)" opacity="0">
+      Nimesh Akalanka
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
+    </text>
+
+    <text x="70" y="182" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="4"
+          fill="#E0B3FF">FULL-STACK DEVELOPER · FREELANCER · SRI LANKA</text>
+
+    <text x="70" y="232" clip-path="url(#type)" font-family="Consolas, Menlo, monospace" font-size="20"
+          fill="#00F5FF">&gt; building clean, fast web experiences</text>
+
+    <rect x="70" y="214" width="10" height="24" fill="#00F5FF">
+      <animate attributeName="x" from="70" to="560" dur="3s" begin="0.6s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0;1" dur="1s" begin="0.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="998" height="298" rx="24" fill="none" stroke="url(#neon)" stroke-opacity="0.5"/>
+</svg>
