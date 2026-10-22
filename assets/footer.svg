@@ -1,20 +1,83 @@
-<svg width="1000" height="160" viewBox="0 0 1000 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="180" viewBox="0 0 1000 180" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <linearGradient id="n" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00F5FF"/>
-      <stop offset="1" stop-color="#BD00FF"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18203C"/>
+      <stop offset="0.5" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#03040A"/>
     </linearGradient>
-  </defs>
-  <rect width="1000" height="160" fill="#0D0221"/>
-  <text x="500" y="70" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif"
-        font-size="26" font-weight="700" fill="url(#n)">Let's build something amazing</text>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#BFD8FF"/>
+      <stop offset="1" stop-color="#FFC53D"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFC53D" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFC53D"/>
+      <stop offset="1" stop-color="#FFC53D" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFC53D" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#FFC53D" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cloud" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-20%" width="300%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
 
-  <path fill="#BD00FF" opacity="0.35"
-        d="M0 110 Q125 80 250 110 T500 110 T750 110 T1000 110 T1250 110 T1500 110 V160 H0 Z">
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="8s" repeatCount="indefinite"/>
-  </path>
-  <path fill="#00F5FF" opacity="0.25"
-        d="M-500 122 Q-375 97 -250 122 T0 122 T250 122 T500 122 T750 122 T1000 122 V160 H-500 Z">
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="500 0" dur="11s" repeatCount="indefinite"/>
-  </path>
+    <g id="col" stroke="#9DB4FF" stroke-width="1.2" stroke-linecap="round">
+      <line x1="0" y1="-60" x2="-6" y2="-38"/>
+      <line x1="-16" y1="0" x2="-22" y2="22"/>
+      <line x1="-32" y1="60" x2="-38" y2="82"/>
+      <line x1="-48" y1="120" x2="-54" y2="142"/>
+      <line x1="-64" y1="180" x2="-70" y2="202"/>
+      <line x1="-80" y1="240" x2="-86" y2="262"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="180" fill="url(#bg)"/>
+
+  <g filter="url(#cloud)">
+    <ellipse cx="180" cy="0" rx="260" ry="50" fill="#232C52">
+      <animate attributeName="cx" values="180;250;180" dur="15s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="560" cy="-8" rx="300" ry="55" fill="#1B2442">
+      <animate attributeName="cx" values="560;480;560" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="920" cy="5" rx="240" ry="50" fill="#232C52">
+      <animate attributeName="cx" values="920;850;920" dur="17s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-16 60" dur="0.9s" repeatCount="indefinite"/>
+    <g opacity="0.35">
+      <use xlink:href="#col" href="#col" x="80" y="10"/>
+      <use xlink:href="#col" href="#col" x="200" y="45"/>
+      <use xlink:href="#col" href="#col" x="320" y="25"/>
+      <use xlink:href="#col" href="#col" x="440" y="52"/>
+      <use xlink:href="#col" href="#col" x="560" y="6"/>
+      <use xlink:href="#col" href="#col" x="680" y="38"/>
+      <use xlink:href="#col" href="#col" x="800" y="18"/>
+      <use xlink:href="#col" href="#col" x="920" y="48"/>
+      <use xlink:href="#col" href="#col" x="1040" y="30"/>
+    </g>
+  </g>
+
+  <!-- distant bolt -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0.2;0.9;0;0" keyTimes="0;0.35;0.355;0.38;0.41;0.48;1" dur="8s" repeatCount="indefinite"/>
+    <circle cx="140" cy="60" r="110" fill="url(#halo)"/>
+    <path d="M170 -5 L145 40 L172 46 L120 120 L148 126 L100 185" fill="none" stroke="#FFC53D" stroke-width="9" stroke-linejoin="round" filter="url(#glow)" opacity="0.8"/>
+    <path d="M170 -5 L145 40 L172 46 L120 120 L148 126 L100 185" fill="none" stroke="#FFF3C4" stroke-width="2.4" stroke-linejoin="round"/>
+  </g>
+
+  <text x="500" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="30" font-weight="800" fill="url(#t)">Let's build something amazing</text>
+  <text x="500" y="124" text-anchor="middle" font-family="Consolas, Menlo, monospace"
+        font-size="14" letter-spacing="5" fill="#8FA3D8">NIMESHAKALANKA.DEV</text>
+
+  <rect x="0" y="176" width="1000" height="2" fill="url(#line)"/>
 </svg>
