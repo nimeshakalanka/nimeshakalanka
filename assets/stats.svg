@@ -23,13 +23,13 @@
   <text x="24" y="84" class="l">Total Stars</text>
   <text x="292" y="84" class="v" text-anchor="end">48</text>
   <text x="24" y="112" class="l">Commits (last year)</text>
-  <text x="292" y="112" class="v" text-anchor="end">532</text>
+  <text x="292" y="112" class="v" text-anchor="end">539</text>
   <text x="24" y="140" class="l">Pull Requests</text>
   <text x="292" y="140" class="v" text-anchor="end">44</text>
   <text x="24" y="168" class="l">Issues</text>
   <text x="292" y="168" class="v" text-anchor="end">4</text>
   <text x="24" y="196" class="l">Repositories</text>
-  <text x="292" y="196" class="v" text-anchor="end">46</text>
+  <text x="292" y="196" class="v" text-anchor="end">47</text>
   <text x="24" y="224" class="l">Followers</text>
   <text x="292" y="224" class="v" text-anchor="end">37</text>
 
@@ -39,41 +39,41 @@
   <text x="366" y="40" class="t">STREAK</text>
   <circle cx="500" cy="120" r="52" fill="none" stroke="#141B33" stroke-width="6"/>
   <circle cx="500" cy="120" r="52" fill="none" stroke="#FFC53D" stroke-width="6" stroke-linecap="round"
-          stroke-dasharray="54.5 326.7" transform="rotate(-90 500 120)" filter="url(#glow)">
+          stroke-dasharray="163.4 326.7" transform="rotate(-90 500 120)" filter="url(#glow)">
     <animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <text x="500" y="133" class="big" text-anchor="middle">1</text>
+  <text x="500" y="133" class="big" text-anchor="middle">3</text>
   <text x="500" y="198" class="l" text-anchor="middle" letter-spacing="3">DAY STREAK</text>
   <text x="366" y="236" class="l">Longest <tspan class="v">6</tspan></text>
-  <text x="634" y="236" class="l" text-anchor="end">Last year <tspan class="v">645</tspan></text>
+  <text x="634" y="236" class="l" text-anchor="end">Last year <tspan class="v">653</tspan></text>
 
   
   <rect x="684" y="0" width="316" height="260" rx="18" fill="#0A0E1A" stroke="#1C2438"/>
   <rect x="702" y="0" width="280" height="3" fill="url(#accent)"/>
   <text x="708" y="40" class="t">TOP LANGUAGES</text>
   <text x="708" y="78" class="l">TypeScript</text>
-  <text x="976" y="78" class="l" text-anchor="end">42.9%</text>
+  <text x="976" y="78" class="l" text-anchor="end">43.8%</text>
   <rect x="708" y="86" width="268" height="6" rx="3" fill="#141B33"/>
   <rect x="708" y="86" width="0" height="6" rx="3" fill="url(#accent)">
     <animate attributeName="width" from="0" to="268" dur="1.2s" begin="0.2s" fill="freeze"/>
   </rect>
   <text x="708" y="112" class="l">Python</text>
-  <text x="976" y="112" class="l" text-anchor="end">33.2%</text>
+  <text x="976" y="112" class="l" text-anchor="end">32.7%</text>
   <rect x="708" y="120" width="268" height="6" rx="3" fill="#141B33"/>
   <rect x="708" y="120" width="0" height="6" rx="3" fill="url(#accent)">
-    <animate attributeName="width" from="0" to="207" dur="1.2s" begin="0.2s" fill="freeze"/>
+    <animate attributeName="width" from="0" to="200" dur="1.2s" begin="0.2s" fill="freeze"/>
   </rect>
   <text x="708" y="146" class="l">Shell</text>
-  <text x="976" y="146" class="l" text-anchor="end">16.1%</text>
+  <text x="976" y="146" class="l" text-anchor="end">15.8%</text>
   <rect x="708" y="154" width="268" height="6" rx="3" fill="#141B33"/>
   <rect x="708" y="154" width="0" height="6" rx="3" fill="url(#accent)">
-    <animate attributeName="width" from="0" to="101" dur="1.2s" begin="0.2s" fill="freeze"/>
+    <animate attributeName="width" from="0" to="97" dur="1.2s" begin="0.2s" fill="freeze"/>
   </rect>
   <text x="708" y="180" class="l">JavaScript</text>
-  <text x="976" y="180" class="l" text-anchor="end">5.8%</text>
+  <text x="976" y="180" class="l" text-anchor="end">5.7%</text>
   <rect x="708" y="188" width="268" height="6" rx="3" fill="#141B33"/>
   <rect x="708" y="188" width="0" height="6" rx="3" fill="url(#accent)">
-    <animate attributeName="width" from="0" to="36" dur="1.2s" begin="0.2s" fill="freeze"/>
+    <animate attributeName="width" from="0" to="35" dur="1.2s" begin="0.2s" fill="freeze"/>
   </rect>
   <text x="708" y="214" class="l">CSS</text>
   <text x="976" y="214" class="l" text-anchor="end">0.9%</text>
