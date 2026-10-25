@@ -23,7 +23,7 @@
   <text x="24" y="84" class="l">Total Stars</text>
   <text x="292" y="84" class="v" text-anchor="end">48</text>
   <text x="24" y="112" class="l">Commits (last year)</text>
-  <text x="292" y="112" class="v" text-anchor="end">554</text>
+  <text x="292" y="112" class="v" text-anchor="end">557</text>
   <text x="24" y="140" class="l">Pull Requests</text>
   <text x="292" y="140" class="v" text-anchor="end">44</text>
   <text x="24" y="168" class="l">Issues</text>
@@ -39,13 +39,13 @@
   <text x="366" y="40" class="t">STREAK</text>
   <circle cx="500" cy="120" r="52" fill="none" stroke="#141B33" stroke-width="6"/>
   <circle cx="500" cy="120" r="52" fill="none" stroke="#FFC53D" stroke-width="6" stroke-linecap="round"
-          stroke-dasharray="261.4 326.7" transform="rotate(-90 500 120)" filter="url(#glow)">
+          stroke-dasharray="326.7 326.7" transform="rotate(-90 500 120)" filter="url(#glow)">
     <animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <text x="500" y="133" class="big" text-anchor="middle">4</text>
+  <text x="500" y="133" class="big" text-anchor="middle">5</text>
   <text x="500" y="198" class="l" text-anchor="middle" letter-spacing="3">DAY STREAK</text>
   <text x="366" y="236" class="l">Longest <tspan class="v">5</tspan></text>
-  <text x="634" y="236" class="l" text-anchor="end">Last year <tspan class="v">668</tspan></text>
+  <text x="634" y="236" class="l" text-anchor="end">Last year <tspan class="v">671</tspan></text>
 
   
   <rect x="684" y="0" width="316" height="260" rx="18" fill="#0A0E1A" stroke="#1C2438"/>
